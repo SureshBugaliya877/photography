@@ -7,6 +7,7 @@
     <title>Photography</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/d3904d0e03.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -33,26 +34,140 @@
 
             <div class="mySlides fade">
               <div class="numbertext">1 / 3</div>
-              <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+              <img src="images/image1.png" style="width:100%">
               <div class="text">Caption Text</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">2 / 3</div>
-              <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+              <img src="images/image2.png" style="width:100%">
               <div class="text">Caption Two</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
-              <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%">
+              <img src="images/image3.png" style="width:100%">
               <div class="text">Caption Three</div>
             </div>
             
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
             
+        </div>
+        <div class="texthpbox">
+            <h2>Image Gallry</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem sapiente ratione quas similique sint voluptatum! Doloribus commodi ex harum officia perspiciatis esse quod cupiditate voluptatum iure corrupti maiores libero, sequi nulla obcaecati cumque deleniti vero.</p>
+            <button>Read our success stories</button>
+        </div>
+
+        <!-- Responsive Image Gallry -->
+
+        <div class="gallery">
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage01.jpg">
             </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage02.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage03.jpg">
+            </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage04.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage05.jpg">
+            </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage06.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage07.jpg">
+            </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage08.jpg">
+            </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage09.jpg">
+            </div>
+            <div class="image-container tall">
+                <img src="images/gallry/homegallryimage10.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage11.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage12.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage13.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage14.jpg">
+            </div>
+            <div class="image-container">
+                <img src="images/gallry/homegallryimage15.jpg">
+            </div>
+        </div>  
+        <!-- testimoniyal section  -->
+
+        <div id="testimoniyal_start">
+            <div class="container_start">
+              <div class="container_start__left">
+                <h2>Read what our customers love about us</h2>
+                <p>
+                  Over 200 companies frim diverse sectors consult us to enhance the
+                  user experience of their products and services.
+                </p>
+                <p>
+                  We have helped companies increase their customer base and generate
+                  multifold revenue with our service.
+                </p>
+                <button>Read our success stories</button>
+              </div>
+              <div class="container_start__right">
+                <div class="card">
+                  <img src="images/Testimoniyal/pic-1.jpg" alt="user" />
+                  <div class="card__content">
+                    <span><i class="ri-double-quotes-l"></i></span>
+                    <div class="card__details">
+                      <p>
+                        We had a great time collaboraring with the Filament team. They
+                        have my high recommendation!
+                      </p>
+                      <h4>- Marnus Stephen</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/Testimoniyal/pic-2.jpeg" alt="user" />
+                  <div class="card__content">
+                    <span><i class="ri-double-quotes-l"></i></span>
+                    <div class="card__details">
+                      <p>
+                        The team drastically improved our product's user experience &
+                        increased our business outreach.
+                      </p>
+                      <h4>- Andrew Jettpace</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="images/Testimoniyal/pic-3.jpg" alt="user" />
+                  <div class="card__content">
+                    <span><i class="ri-double-quotes-l"></i></span>
+                    <div class="card__details">
+                      <p>
+                        I absolutely loved working with the Filament team. Complete
+                        experts at what they do!
+                      </p>
+                      <h4>- Stacy Stone</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-col">
@@ -91,33 +206,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
+    <script src="script.js"></script>
 </body>
 </html>
